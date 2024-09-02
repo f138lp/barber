@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+@import "partes/_color";
+@import "partes/_header.scss";
+@import "partes/_layout.scss";
+body{
+    background-color: $primary-normal;
+}
+a{
+    text-decoration:none;
+}
+img{
+    width: 100%;
+}
+svg{
+    width: 100%;
+}

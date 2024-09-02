@@ -1,0 +1,55 @@
+.items{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 14px;
+    a{
+        color: $white-normal;
+    }
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.icones a:hover{
+    i{
+    animation: translateY 0.8s infinite alternate;
+    color: $red-normal;
+    }
+}
+    @keyframes translateY {
+        
+    
+    from{
+        transform: translateY(0) scale(1);
+}
+to{
+    transform: translateY(-8px) scale(1.1);
+}
+    }
+.logo{
+    margin-top: 24px;
+}
+.btn{
+    border: 1px solid $white-normal;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.btn:hover{
+    
+    animation: button 0.5s forwards;
+    background-color: $red-normal;
+    
+}
+@keyframes button{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
